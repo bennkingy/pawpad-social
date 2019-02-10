@@ -8,7 +8,7 @@
 body {
   width     :700px;
   margin    :20px auto;
-  background:#f8f8f8;
+  background:#ECEFF1;
   border    :1px solid #888;
 }
 
@@ -22,6 +22,13 @@ img {
   -moz-box-shadow   :2px 2px 2px #888;
   -webkit-box-shadow:2px 2px 2px #888;
   box-shadow        :2px 2px 2px #888;
+}
+
+#logo {
+  box-shadow: none;
+  border: none;
+  margin: 0 auto;
+  display: block;
 }
 
 li a, .button {
